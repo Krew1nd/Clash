@@ -1,9 +1,8 @@
-mode: rule
-log-level: warning
+log-level: silent
 dns:
   enable: true
   listen: 127.0.0.1:53
-  ipv6: false
+  ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
