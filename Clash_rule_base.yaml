@@ -1,4 +1,6 @@
 log-level: silent
+external-controller: 127.0.0.1:9090
+secret: "Clash"
 dns:
   enable: true
   listen: 127.0.0.1:53
